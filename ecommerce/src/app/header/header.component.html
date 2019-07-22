@@ -1,0 +1,37 @@
+<div class="container-fluid">
+    <header class="row navbar navbar-expand-lg shadow p-3 rounded">
+        <a routerLink="/home" routerLinkActive="active" class="nav-link">
+            <h1 class="display-6 text-left">TIENDA</h1>
+        </a>
+
+        <a routerLink="/carrito" class="nav-link"><span class="mr-auto material-icons"
+                data-target="#appbar">shopping_cart</span></a>
+
+        <button class="navbar-toggler material-icons" data-toggle="collapse" data-target="#appbar">menu</button>
+
+        <div class="navbar-collapse collapse" id="appbar">
+            <nav class="navbar-nav mr-auto">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarProductos" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Productos
+                </a>
+                <li class="nav-item dropdown">
+                    <div class="dropdown-menu" aria-labelledby="navbarProductos">
+                        <a class="dropdown-item" routerLink="/productos" routerLinkActive="active">Winter Season
+                            AW2019</a>
+                        <a class="dropdown-item" routerLink="/productosdestacados"
+                            routerLinkActive="active">Destacados</a>
+                        <a class="dropdown-item" href="#">HOT SALE 🔥</a>
+                    </div>
+                </li>
+                <a routerLink="/acercade" class="nav-link">Acerca de</a>
+                <a routerLink="/iniciarsesion" class="nav-link">Iniciar sesión</a>
+            </nav>
+
+            <form class="form-inline">
+                <input class="form-control my-2" type="search" placeholder="Buscar" aria-label="Search">
+            </form>
+        </div>
+    </header>
+
+    <router-outlet></router-outlet>

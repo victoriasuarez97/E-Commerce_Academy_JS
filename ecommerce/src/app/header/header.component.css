@@ -1,0 +1,30 @@
+.row {
+    background-color:orange;
+}
+
+.form-control, .placeholder {
+    color:saddlebrown;
+    border-color:saddlebrown;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+.nav-link :hover {
+    color:darkgoldenrod;
+}
+
+navbar-toggler {
+    color:white;
+}
+
+.dropdown-item:hover{
+    color:orange;
+}
+
+a:hover {
+    transition: all 300ms;
+    transform: scale(00.9);
+}
+

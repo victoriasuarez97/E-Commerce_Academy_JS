@@ -1,0 +1,20 @@
+.card {
+    border-color: saddlebrown;
+}
+.btn {
+    background-color: orange;
+    color:white;
+    border-color: orange;
+}
+
+a {
+    margin:auto;
+}
+a:hover {
+    transition: all 300ms;
+    transform: scale(00.9);
+}
+
+h4 {
+    color:orange;
+}

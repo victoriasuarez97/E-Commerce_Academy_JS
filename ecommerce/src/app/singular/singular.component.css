@@ -1,0 +1,18 @@
+img {
+    margin-left:10%;
+    width:70%;
+}
+
+.btn {
+    background-color:orange;
+    color:white;
+}
+
+h3 {
+    margin-top:30px;
+}
+
+.precio {
+    font-size:30px;
+    color:orange;
+}
